@@ -309,9 +309,3 @@ Lucene 8 introduced more constraints on similarities, in particular:
 [discrete]
 ==== Weights in Function Score must be positive
 Negative `weight` parameters in the `function_score` are no longer allowed.
-
-[discrete]
-==== Query string and Simple query string limit expansion of fields to 1024
-The number of automatically expanded fields for the "all fields"
-mode (`"default_field": "*"`) for the `query_string` and `simple_query_string`
-queries is now 1024 fields.
